@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+	<title>表单form</title>
+	<style>
+		textarea{width:400px;
+		height:300px;}
+	</style>
+	</head>
+	<body>
+		<form action="http://www.baidu.com" method="get" name="search">
+			<span>用户名：</span><input type = "text" name= "username" value = "请输入用户名">
+			<span>密    码：</span><input type = "password" name = "pwd"><br>
+			<textarea name="text"></textarea><br>
+			<select>
+				<option>shanghai</option>
+				<option>beijing</option>
+			</select>
+			<input type="submit">
+		</form>
+		<!--
+			https://www.baidu.com/?username=xiaoming&pwd = 123456-->
+	</body>
+</html>
